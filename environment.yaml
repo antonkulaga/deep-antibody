@@ -1,0 +1,39 @@
+name: deep-antibody
+channels:
+  - defaults
+  - conda-forge
+  - antonkulaga
+  - bioconda
+  - https://levinthal:paradox@conda.graylab.jhu.edu
+dependencies:
+  - python=3.9
+  - jupyterlab=3.2.9
+  - more-itertools=8.12.0
+  - click
+  - # grpcio==1.26.0
+  - beautifulsoup4>=4.6.0
+  - requests>=2.22.0
+  - tqdm>=4.32.2
+  - numpy>=1.18.0
+  - pandas>=0.24.2
+  - biopython>=1.73
+  - tensorboard==2.1.0
+  - h5py>=2.9.0
+  - future>=0.18.2
+  - openpyxl>=3.0.3
+  - dask==2.21.0
+  - distributed>=2.21.0
+  - dask-jobqueue==0.7.1
+  - bokeh>=0.13.0
+  - scikit-learn
+  - matplotlib>=3.3.3
+  - torchvision==0.8.2
+  - yapf
+  - seaborn
+  - einops==0.3.2
+  - pyrosetta
+  - pip:
+      - pyfunctional
+      - pycomfort
+      - tdqm
+      - polars
